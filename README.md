@@ -1,2 +1,2 @@
-# python-appimage-module
-Example repo for bundling a Viam module using AppImage and AppImageBuilder
+# python-appimage-example
+Example repo for bundling a Viam module as an AppImage with AppImageBuilder

@@ -1,0 +1,13 @@
+# top level
+.DS_Store
+.pytest_cache
+.venv
+module.tar.gz
+viam-module-env
+*.AppImage
+
+# src
+src/__pycache__
+
+# unit tests
+tests/__pycache__
