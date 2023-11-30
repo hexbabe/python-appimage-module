@@ -15,7 +15,7 @@ TODO: add example config after the module is on the registry
 
 ## Quick tour of this repo
 
-- `packaging/`: the directory containing the Dockerfile that configures the Docker image to run the builder in, the AppImageBuilder.yml config file, and the icon
+- `packaging/`: the directory containing the Dockerfile that configures the Docker image to run the builder in, the AppImageBuilder.yml config file, and the icon. You must have Docker installed before running the build.
 - `src/`: Python module code for the Viam module
 - `Makefile`: `make` commands to build the module in different ways
 - `meta.json`: the metadata config file used when uploading/updating module info on the registry
