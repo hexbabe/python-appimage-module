@@ -1,4 +1,4 @@
-# py-container-module
+# python-appimage-module
 
 This is an example of using AppImageBuilder to bundle a Python module as an AppImage (only supported on AArch64 for now), and then running it on a robot.
 
