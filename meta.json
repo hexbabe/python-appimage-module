@@ -1,7 +1,7 @@
 {
   "module_id": "viam:python-appimage-example",
   "visibility": "public",
-  "url": "https://github.com/viamrobotics/python-appimage-example",
+  "url": "https://github.com/viamrobotics/python-appimage-module",
   "description": "Example of deploying a Python module with AppImageBuilder.",
   "models": [
     {
