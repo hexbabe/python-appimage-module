@@ -2,16 +2,9 @@
 
 This is an example of using AppImageBuilder to bundle a Python module as an AppImage (only supported on AArch64 for now), and then running it on a robot.
 
-Use this as a reference for:
-- An alternative to managing Python version/dependencies directly for your robot.
+The built AppImage is a binary that runs the Viam module on any Linux AArch64 robot without installing anything else or worrying about the system Python runtime and package dependencies. It is executed via `run.sh`, and packaged to the Viam Modular Registry as a tar.gz file (see Makefile for details).
 
-## Robot config
-
-Replace `module_id` and `model` with the values you choose for your module.
-
-```json
-TODO: add example config after the module is on the registry
-```
+Use this repository's build process as boilerplate to deploy your own Python Viam module as an AppImage.
 
 ## Quick tour of this repo
 
@@ -24,6 +17,6 @@ TODO: add example config after the module is on the registry
 
 ## Using this repo as boilerplate
 
-If you fork this and want to deploy to a robot, you'll need to change all placeholder names and references to the [viam namespace](https://docs.viam.com/appendix/glossary/#term-model-namespace-triplet). Follow the [fork instructions](https://github.com/viam-labs/python-example-module#forking-this-repo) from the Python example repo.
+If you fork this and want to deploy to a robot, you'll need to change all placeholder names and references to the ['viam' namespace](https://docs.viam.com/appendix/glossary/#term-model-namespace-triplet). Follow the [fork instructions](https://github.com/viam-labs/python-example-module#forking-this-repo) from the Python example repo.
 
-If you aren't making a camera module, you may want to use a different component's repo along with this repo as boilerplate in place of the `src` folder. When doing this, make sure to maintain the structure of a Python module i.e. keeping the outermost `__init__.py` to ensure the build doesn't break. Moreover, in this case, be sure to update your `meta.json` with the updated models.
+If you aren't making a camera module, you may want to use a different module repo as the actual Python code boilerplate, such as replacing the contents of `src/` Python code. When doing this, make sure to maintain proper Python module structure (i.e. preserving `src/__init__.py`) to ensure the build doesn't break. Moreover, in this case, be sure to update your `meta.json` with the updated models and other nomenclature.
