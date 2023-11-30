@@ -15,7 +15,7 @@ from viam.resource.types import Model, ModelFamily
 
 LOGGER = getLogger(__name__)
 
-
+# usage of camera type is arbitrary; refactor to your desired component/service
 class MyModule(Camera, Reconfigurable):  # use a better name than this
     """
     Camera represents any physical hardware that can capture frames.
