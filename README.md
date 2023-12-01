@@ -9,7 +9,7 @@ Use this repository's build process as boilerplate to deploy your own Python Via
 ## Quick tour of this repo
 
 - `packaging/`: the directory containing the Dockerfile that configures the Docker image to run the builder in, the AppImageBuilder.yml config file, and the icon. You must have Docker installed before running the build.
-- `src/`: Python module code for the Viam module
+- `src/`: Python module code for the Viam module. Replaceable boilerplate for whatever robot resource your module implements.
 - `Makefile`: `make` commands to build the module in different ways
 - `meta.json`: the metadata config file used when uploading/updating module info on the registry
 - `requirements.txt`: list of Python packages the module depends on

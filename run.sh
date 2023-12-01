@@ -1,6 +1,6 @@
 #!/bin/sh
 cd "$(dirname "$0")"
-LOG_PREFIX="[Viam REPLACE_WITH_MODULE_NAME module setup]"
+LOG_PREFIX="[REPLACE_WITH_MODULE_NAME setup]"
 
 echo "$LOG_PREFIX Starting the module."
 
