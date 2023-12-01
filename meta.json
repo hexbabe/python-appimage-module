@@ -6,7 +6,7 @@
   "models": [
     {
       "api": "rdk:component:camera",
-      "model": "viam:camera:oak-d"
+      "model": "viam:camera:python-appimage-example"
     }
   ],
   "entrypoint": "run.sh"

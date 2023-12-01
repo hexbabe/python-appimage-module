@@ -2,7 +2,7 @@
 
 This is an example of using AppImageBuilder to bundle a Python module as an AppImage (only supported on AArch64 for now), and then running it on a robot.
 
-The built AppImage is a binary that runs the Viam module on any Linux AArch64 robot without installing anything else or worrying about the system Python runtime and package dependencies. It is executed via `run.sh`, and packaged to the Viam Modular Registry as a tar.gz file (see Makefile for details).
+The built AppImage is a binary that runs the Viam module on any Linux AArch64 robot without installing anything else or worrying about the system Python runtime and package dependencies. It is executed via `run.sh`, and packaged to the Viam Modular Registry as a tar.gz file (see Makefile for details). Note that the AppImage bundling isn't always the best solution for packaging Viam Python modules, but likely the best choice for some use cases.
 
 Use this repository's build process as boilerplate to deploy your own Python Viam module as an AppImage.
 
