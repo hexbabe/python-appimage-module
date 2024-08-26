@@ -1,12 +1,12 @@
 {
-  "module_id": "viam:python-appimage-example",
+  "module_id": "seanorg:python-appimage-example",
   "visibility": "public",
   "url": "https://github.com/viamrobotics/python-appimage-module",
   "description": "Example of deploying a Python module with AppImageBuilder.",
   "models": [
     {
       "api": "rdk:component:camera",
-      "model": "viam:camera:python-appimage-example"
+      "model": "seanorg:camera:python-appimage-example"
     }
   ],
   "entrypoint": "run.sh"

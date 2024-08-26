@@ -30,7 +30,7 @@ class MyModule(Camera, Reconfigurable):  # use a better name than this
         """The distortion parameters of the camera"""
 
 
-    MODEL: ClassVar[Model] = Model(ModelFamily("viam", "camera"), "python-appimage-example")  # make sure this matches the model in meta.json
+    MODEL: ClassVar[Model] = Model(ModelFamily("seanorg", "camera"), "python-appimage-example")  # make sure this matches the model in meta.json
 
     # create any class parameters here, 'some_pin' is used as an example (change/add as needed)
     some_pin: int
